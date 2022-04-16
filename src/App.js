@@ -46,7 +46,6 @@ function App() {
 			items={people}
 			resourceName="person"
 			itemComponent={SmallPersonListItem} />
-<<<<<<< HEAD
 		<NumberedList
 			items={people}
 			resourceName="person"
@@ -59,12 +58,10 @@ function App() {
 			items={products}
 			resourceName="product"
 			itemComponent={LargeProductListItem} />
-=======
 		<RegularList
 			items={people}
 			resourceName="person"
 			itemComponent={LargePersonListItem} />
->>>>>>> 1f67a7bd9dda4781ce301b3c73785003589a11db
 		</>
 	);
 }
